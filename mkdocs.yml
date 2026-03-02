@@ -1,17 +1,19 @@
 site_name: Physics basics
 site_url: https://nowitends.github.io/Physics_Problems
+
 theme:
   name: material
   palette:
-    primary: blue
-    # Palette toggle for light mode: other schemes include 'slate', 'material', 'indigo', 'red', 'pink' that  can be found at https://squidfunk.github.io/mkdocs-material/reference/palette/#built-in-color-schemes
+    # Light mode
     - scheme: default
+      primary: blue
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
 
-    # Palette toggle for dark mode: other schemes include 'slate', 'material', 'indigo', 'red', etc.
-    - scheme: material
+    # Dark mode
+    - scheme: slate
+      primary: blue
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
